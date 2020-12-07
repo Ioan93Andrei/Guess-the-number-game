@@ -1,11 +1,11 @@
 import random
 
 def gameOn():
-    random_number = random.randrange(0, 500)
+    random_number = random.randrange(0, 1000)
     chosen_number = int(input("Please pick a number: "))
     while True:
-        if chosen_number == 500 or chosen_number <= 0 :
-            print("Number must be below 500 and above 0.")
+        if chosen_number == 1000 or chosen_number <= 0 :
+            print("Number must be below 1000 and above 0.")
             print(random_number)
             chosen_number = int(input("Please pick a number: "))
             continue
