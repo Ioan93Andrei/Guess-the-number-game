@@ -1,5 +1,0 @@
-1. The game doesn't work quite properly. If the chosen_number is higher than the random_number you 
-still get a win message. #solved
-
-2. Still need to solve the problem with the message the user gets when the number is below 0 (negative)
-or above 500. At the moment the message is not shown. #solved
